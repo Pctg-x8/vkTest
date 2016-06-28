@@ -7,6 +7,7 @@ Vulkan 1.0.12 with LunarG SDK on Windows 10
 
 To compile shader to SPIR-V bytecode, run following command.
 > % glslangValidator -V -l <name>.{vert, frag} -o <name>.spv
+
 and set extension to (vert: for Vertex Shader, frag: for Fragment Shader).
 
 ## References
